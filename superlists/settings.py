@@ -24,7 +24,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['ec2-54-172-15-21.compute-1.amazonaws.com']
+ALLOWED_HOSTS = ['127.0.0.1','ec2-54-172-15-21.compute-1.amazonaws.com']
 
 
 # Application definition
@@ -82,4 +82,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.abspath(os.path.join(BASE_DIR, '../static'))
+STATIC_ROOT = os.path.abspath(os.path.join(BASE_DIR, '/home/jayaprakasha/.virtualenvs/TDDDjango/static'))
